@@ -1,0 +1,60 @@
+*
+{
+    box-sizing: border-box;
+
+}
+
+body
+{
+    background: black;
+}
+
+.content
+{
+    position: relative;
+    border: 10px solid white;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.content img
+
+{
+    height: 400px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+#names
+{
+    position: absolute;
+    top: 20px;
+    right: -40px;
+    display: inline-block;
+
+}
+
+.name1
+{
+    border: 5px solid olivedrab;
+    background-color: aqua;
+    display: block;
+    padding: 5px 30px 5px 20px;
+    border-radius: 20px;
+    font-size: 30px;
+
+}
+
+.name2
+{
+    border: 5px solid olivedrab;
+    background-color: aqua;
+    display: block;
+    padding: 5px 30px 5px 20px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+
